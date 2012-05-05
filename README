@@ -1,0 +1,11 @@
+Show Once is the module for ExpressionEngine 2 that allows showing certain content to user only once (during his first visit).
+
+The content that you want to show needs to be wrapped in {exp:show_once:check} tag pair.
+
+The only parameter (which is REQUIRED) is "code". It shoul contain a unique idenitifier for the content you want to show (no spaces, letters and digits only). This allows you to show several blocks of code - together or at different time, - each shown only once.
+
+Example:
+
+{exp:show_once:check code="twitter"}
+Do not forget to follow us on Twitter!
+{/exp:show_once:check}
